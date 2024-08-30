@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+}
+.container, body, html {
+    height: 100vh;
+}
+
+.section {
+    height: 45vh;
+}
+
+.header.section {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.quote.section {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+.author {
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
