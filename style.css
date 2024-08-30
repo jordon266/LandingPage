@@ -2,17 +2,29 @@
 body {
     margin: 0;
 }
-.container, body, html {
+body, html {
     height: 100vh;
+}
+
+.container {
+    height: inherit;
 }
 
 .section {
     height: 45vh;
+    width: 100%;
 }
-
-.header.section {
+.header {
+    width: 60%;
+  
+  
+}
+.first.section {
     background-color: #1F2937;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .quote.section {
@@ -21,7 +33,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 h1 {
     margin: 0;
 }
@@ -33,4 +44,29 @@ h1 {
     align-self: flex-end;
     font-size: 25px;
     font-weight: bold;
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.s-logo {
+    font-size: 45px;
+}
+.header-info {
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    height: 200px;
+    width: 400px;
+}
+.logo-container {
+    display: flex;
+}
+.logo-info {
+    display: flex;
 }
