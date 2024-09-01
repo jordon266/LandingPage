@@ -18,7 +18,7 @@ body, html {
 }
 
 .section {
-    height: 65vh;
+    height: 55vh;
     width: 100%;
 }
 .header {
@@ -38,8 +38,6 @@ body, html {
 .quote.section {
     background-color: #E5E7EB;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .logo {
     font-size: 24px;
@@ -49,11 +47,14 @@ body, html {
 .quote {
     font-size: 36px;
     font-style: italic;
+    margin-bottom: 0;
+    color: #1F2937;
 }
 .author {
     align-self: flex-end;
     font-size: 25px;
     font-weight: bold;
+    margin-top:0;
 }
 ul {
     display: flex;
@@ -106,4 +107,13 @@ img {
     border: none;
     font-weight: 900;
     color: #F9FAF8;
+}
+.quote-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40%;
 }
